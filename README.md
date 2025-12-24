@@ -40,7 +40,7 @@ No accounts. No reminders. No judgement.
 
 ---
 
-## 🚀 Live Project
+##  Live Project
 
 🔗 **Live App:**  
 https://none-delta-one.vercel.app
@@ -58,7 +58,7 @@ This hackathon reminded me why I enjoy building.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ├── index.html
 
