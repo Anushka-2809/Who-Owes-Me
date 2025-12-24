@@ -61,6 +61,9 @@ This hackathon reminded me why I enjoy building.
 ## 📂 Project Structure
 
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
