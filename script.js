@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const app = document.getElementById("app");
   const getStarted = document.getElementById("getStarted");
 
-  // ---------- FORM ELEMENTS ----------
   const form = document.getElementById("debt-form");
   const nameInput = document.getElementById("name");
   const amountInput = document.getElementById("amount");
