@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Who Owes Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- FIRST PAGE -->
+  <div class="landing" id="landing">
+    <h1>Who Owes Me</h1>
+    <p class="subtitle">Keep track of money people owe you — without awkward reminders.</p>
+    <button id="getStarted" type="button">Get Started</button>
+  </div>
+
+  <!-- SECOND PAGE -->
+  <div class="app" id="app" style="display:none;">
+    <h2>Who Owes You</h2>
+
+    <form id="debt-form">
+      <input type="text" id="name" placeholder="Person's name" required />
+      <input type="number" id="amount" placeholder="Amount (₹)" required />
+      <input type="date" id="date" required />
+      <input type="text" id="reason" placeholder="Reason (optional)" />
+      <button type="submit">Add Entry</button>
+    </form>
+
+    <div class="sort-controls">
+      <button id="sort-date" type="button">Sort by Date</button>
+      <button id="sort-amount" type="button">Sort by Amount</button>
+      <button id="clear-all" type="button">Clear All</button>
+    </div>
+
+    <p id="empty-state">No entries yet.</p>
+    <ul id="debts-list"></ul>
+
+    <p class="total" id="total">Total Owed to You: ₹0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
