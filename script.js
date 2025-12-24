@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nameInput = document.getElementById("name");
   const amountInput = document.getElementById("amount");
 
-  // ---------- DISPLAY ELEMENTS ----------
+  
   const list = document.getElementById("debts-list");
   const emptyState = document.getElementById("empty-state");
   const totalEl = document.getElementById("total");
