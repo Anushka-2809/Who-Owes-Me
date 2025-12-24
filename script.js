@@ -13,12 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const emptyState = document.getElementById("empty-state");
   const totalEl = document.getElementById("total");
 
-  // ---------- BUTTONS ----------
   const sortDateBtn = document.getElementById("sort-date");
   const sortAmountBtn = document.getElementById("sort-amount");
   const clearAllBtn = document.getElementById("clear-all");
 
-  // ---------- DATA ----------
   let debts = JSON.parse(localStorage.getItem("debts")) || [];
 
   // ---------- NAVIGATION ----------
