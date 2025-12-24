@@ -26,19 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
     render();
   });
 
-  // ---------- ADD ENTRY ----------
+  
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const name = nameInput.value.trim();
-    const amount = Number(amountInput.value); // 👈 FORCE NUMBER
+    const amount = Number(amountInput.value); 
 
     if (!name || amount <= 0) return;
 
     debts.push({
       id: Date.now(),
       name: name,
-      amount: amount, // 👈 STORED AS NUMBER
+      amount: amount, 
       date: new Date().toISOString()
     });
 
