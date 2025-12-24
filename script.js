@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // ---------- PAGE ELEMENTS ----------
+  
   const landing = document.getElementById("landing");
   const app = document.getElementById("app");
   const getStarted = document.getElementById("getStarted");
