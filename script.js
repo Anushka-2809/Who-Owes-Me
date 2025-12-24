@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
   });
 
-  // ---------- RENDER ----------
+  
   function render() {
     list.innerHTML = "";
 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     emptyState.style.display = "none";
 
-    // ✅ FIXED TOTAL CALCULATION
+    
     const total = debts.reduce((sum, d) => sum + Number(d.amount), 0);
     totalEl.textContent = `Total Owed to You: ₹${total}`;
 
