@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let debts = JSON.parse(localStorage.getItem("debts")) || [];
 
-  // ---------- NAVIGATION ----------
+  
   getStarted.addEventListener("click", () => {
     landing.style.display = "none";
     app.style.display = "block";
