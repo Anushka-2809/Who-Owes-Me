@@ -77,13 +77,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- DELETE ENTRY ----------
+  
   window.deleteEntry = function (id) {
     debts = debts.filter(d => d.id !== id);
     saveAndRender();
   };
 
-  // ---------- SORT ----------
+  
   sortDateBtn.addEventListener("click", () => {
     debts.sort((a, b) => new Date(b.date) - new Date(a.date));
     render();
@@ -94,7 +94,6 @@ document.addEventListener("DOMContentLoaded", () => {
     render();
   });
 
-  // ---------- CLEAR ALL ----------
   clearAllBtn.addEventListener("click", () => {
     if (confirm("Clear all entries?")) {
       debts = [];
