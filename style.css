@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .landing {
   height: 100vh;
   background: linear-gradient(135deg, #3467d3, #1e3a8a);
@@ -15,7 +14,6 @@
   position: relative;
   padding: 20px;
 }
-
 .landing h1 {
   font-size: 4rem;
   font-weight: 800;
@@ -24,13 +22,11 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
 }
-
 .subtitle {
   color: #e0e7ff;
   font-size: 1.1rem;
   max-width: 500px;
 }
-
 .landing button {
   position: absolute;
   bottom: 40px;
@@ -42,20 +38,15 @@
   font-weight: 600;
   cursor: pointer;
 }
-
-
 .app {
   max-width: 420px;
   margin: 40px auto;
   text-align: center;
   font-family: Inter, system-ui, sans-serif;
 }
-
 .app h2 {
   margin-bottom: 20px;
 }
-
-
 form {
   background: #ffffff;
   padding: 18px;
@@ -66,14 +57,12 @@ form {
   align-items: center;
   gap: 12px;
 }
-
 form input {
   width: 80%;
   padding: 8px;
   border-radius: 6px;
   border: 1px solid #d1d5db;
 }
-
 form button {
   width: 80%;
   padding: 9px;
@@ -83,15 +72,12 @@ form button {
   color: white;
   cursor: pointer;
 }
-
-
 .sort-controls {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin: 16px 0;
 }
-
 .sort-controls button {
   padding: 6px 10px;
   font-size: 0.75rem;
@@ -100,13 +86,10 @@ form button {
   background: #f8fafc;
   cursor: pointer;
 }
-
-
 #debts-list {
   list-style: none;
   margin-top: 10px;
 }
-
 #debts-list li {
   background: #ffffff;
   padding: 12px;
@@ -117,19 +100,16 @@ form button {
   align-items: center;
   margin-bottom: 8px;
 }
-
 #debts-list button {
   background: none;
   border: none;
   color: #f80707;
   cursor: pointer;
 }
-
 .total {
   margin-top: 14px;
   font-weight: 600;
 }
-
 #empty-state {
   color: #6b7280;
   margin-top: 10px;
