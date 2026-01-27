@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
       saveAndRender();
     }
   });
-  function saveAndRender() {
+  funct saveAndRender() {
     localStorage.setItem("debts", JSON.stringify(debts));
     render();
   }
