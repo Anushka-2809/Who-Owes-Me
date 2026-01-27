@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     debts.sort((a, b) => b.amount - a.amount);
     render();
   });
-  clearAllBtn.addEventListener("click",  => {
+  clearAllBtn.addEventListener("click", () => {
     if (confirm("Clear all entries?")) {
       debts = [];
       saveAndRender();
